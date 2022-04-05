@@ -1,0 +1,23 @@
+{
+    "name": "now2Trade",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "./background.js"
+        ]
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs",
+        "https://www.instagram.com/eneskemel/",
+        "https://now2trade.com/arbitrage/tr/",
+        "http://*/",
+        "https://*/",
+        "https://now2trade.com/arbitrage/en/",
+        "webNavigation",
+        "https://www.youtube.com/"
+    ]
+}
